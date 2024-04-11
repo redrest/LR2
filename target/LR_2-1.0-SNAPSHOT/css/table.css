@@ -1,0 +1,29 @@
+.table {
+    width: auto;
+    border-collapse: collapse;
+}
+
+.table th {
+    word-wrap: break-word;
+    background-color: #343a40;
+    color: #ffffff;
+    width: auto;
+    margin: 8px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table td {
+    word-wrap: break-word;
+    width: auto;
+    margin: 16px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.thead-dark {
+    color: #ffffff;
+    background-color: #343a40;
+}
